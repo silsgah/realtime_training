@@ -1,0 +1,14 @@
+[project]
+name = "crypto-predictor"
+version = "0.1.0"
+description = "Crypto streaming services"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "loguru>=0.7.3",
+    "quixstreams>=3.13.1",
+    "websocket-client>=1.8.0",
+]
+
+[tool.uv.workspace]
+members = ["services/trades"]
