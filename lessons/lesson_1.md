@@ -11,3 +11,6 @@
 3. uv run services/trades/src/trades/main.py
 
 2. uv add quixstreams
+
+uv tool install pre-commit
+ uv tool install ruff   
