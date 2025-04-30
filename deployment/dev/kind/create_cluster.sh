@@ -1,5 +1,5 @@
 #!/bin/bash
-# Steps:
+# Steps:  
 
 # 1. Delete the cluster (if it exists, otherwise it will fail)
 echo "Deleting the cluster..."

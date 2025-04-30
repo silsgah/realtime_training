@@ -5,14 +5,22 @@ description = "Crypto streaming services"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "candles",
     "loguru>=0.7.3",
     "pydantic>=2.10.6",
     "quixstreams>=3.13.1",
+    "ta-lib>=0.6.3",
+    "technical-indicators",
     "websocket-client>=1.8.0",
 ]
 
 [tool.uv.workspace]
-members = ["services/trades"]
+members = ["services/trades", "candles", "services/candles", "services/technical_indicators"]
+
+[tool.uv.sources]
+trades = { workspace = true }
+candles = { workspace = true }
+technical-indicators = { workspace = true }
 
 
 [tool.ruff]
