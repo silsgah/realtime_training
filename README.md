@@ -1,10 +1,10 @@
 # 📩Real time cryto prediction
 
-This project is an **SMS spam classifier** built on top of a fine-tuned **GPT-2-based language model**. It leverages modern tooling in Python, such as `pydantic`, `loguru`, `ruff`, and `make`, to deliver a clean, maintainable, and scalable machine learning pipeline.
+This project is an ML trained model from data injection to training to experimentation to prediction of model. It leverages modern tooling in Python, such as `pydantic`, `loguru`, `ruff`, and `make`, to deliver a clean, maintainable, and scalable machine learning pipeline.
 
 ## 🚀 Features
 
-- 🧠 Fine-tuned **GPT-2** model for binary SMS classification (spam vs ham)
+- 🧠 Data injestion to training to experiment
 - 🔄 **Balanced dataset** preprocessing
 - 🛡️ **Pydantic** for robust data validation
 - 📊 Dataset metrics and confusion matrix visualization
