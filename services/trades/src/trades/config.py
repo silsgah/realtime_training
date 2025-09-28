@@ -1,3 +1,5 @@
+from typing import Literal
+
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -7,9 +9,9 @@ class Settings(BaseSettings):
     )
 
     product_ids: list[str] = [
+        'ETH/EUR',
         'BTC/USD',
         'BTC/EUR',
-        'ETH/EUR',
         'ETH/USD',
         'SOL/USD',
         'SOL/EUR',
@@ -18,6 +20,8 @@ class Settings(BaseSettings):
     ]
     kafka_broker_address: str
     kafka_topic_name: str
+    live_or_historical: Literal['live', 'historical'] = 'live'
+    last_n_days: int = 30
 
 
 config = Settings()

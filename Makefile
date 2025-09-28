@@ -23,6 +23,13 @@ deploy-for-dev: build-for-dev push-for-dev
 ################################################################################
 ## Production
 ################################################################################
+
+build-and-push:
+	./scripts/build-and-push.sh ${image} ${env}
+# Deploys a service to the given environment
+deploy:
+	./scripts/deploy.sh ${service} ${env}
+	
 build-and-push-for-prod:
 	@BUILD_DATE=$$(date +%s); \
 	echo "Build date: $$BUILD_DATE"; \
