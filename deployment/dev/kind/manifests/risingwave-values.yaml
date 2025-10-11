@@ -34,37 +34,37 @@ metaComponent:
   resources:
     limits:
       cpu: 1
-      memory: 1Gi
+      memory: 4Gi
     requests:
-      cpu: 100m
-      memory: 128Mi
+      cpu: 500m
+      memory: 1Gi
 
 frontendComponent:
   resources:
     limits:
       cpu: 1
-      memory: 1Gi
+      memory: 4Gi
     requests:
-      cpu: 100m
-      memory: 128Mi
+      cpu: 500m
+      memory: 1Gi
 
 computeComponent:
   resources:
     limits:
       cpu: 1
-      memory: 2Gi
+      memory: 4Gi
     requests:
-      cpu: 100m
-      memory: 512Mi
+      cpu: 500m
+      memory: 1Gi
 
 compactorComponent:
   resources:
     limits:
       cpu: 1
-      memory: 1Gi
+      memory: 4Gi
     requests:
-      cpu: 100m
-      memory: 128Mi
+      cpu: 500m
+      memory: 1Gi
 
 #
 # https://github.com/bitnami/charts/blob/main/bitnami/postgresql/values.yaml
@@ -106,4 +106,4 @@ minio:
     rootPassword: "minio-D0408AC0"
 
   persistence:
-    size: 10Gi
+    size: 20Gi

@@ -1,0 +1,24 @@
+[project]
+name = "predictor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "gahsilas", email = "gahsilas@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "great-expectations>=0.18.8",
+    "lazypredict>=0.2.16",
+    "mlflow>=3.1.1",
+    "optuna>=4.4.0",
+    "psycopg2-binary>=2.9.10",
+    "python-dotenv>=1.1.0",
+    "risingwave-py>=0.0.1",
+    "scikit-learn>=1.7.0",
+    "ydata-profiling>=4.16.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

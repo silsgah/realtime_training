@@ -1,0 +1,31 @@
+cat <<EOL > .gitignore
+# Rust
+/target
+**/*.rs.bk
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+.env
+.env.*
+
+# MacOS
+.DS_Store
+
+# State/runtime data
+state/
+*.sst
+*.log
+*.lock
+*.old
+*.db
+
+# IDEs/editors
+.vscode/
+.idea/
+EOL
+
