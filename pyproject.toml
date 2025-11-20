@@ -1,8 +1,11 @@
 [project]
 name = "crypto-predictor"
 version = "0.1.0"
-description = "Crypto streaming services"
+description = "Real-time cryptocurrency price prediction system with streaming data processing"
 readme = "README.md"
+authors = [
+    { name = "Silas Kwabla Gah", email = "gahsilas@gmail.com" }
+]
 requires-python = ">=3.12"
 dependencies = [
     "candles",
