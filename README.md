@@ -365,33 +365,6 @@ uv run ruff format .
 pre-commit run --all-files
 ```
 
-### Adding a New Service
-
-1. Create service directory: `services/new_service/`
-2. Add `pyproject.toml` with dependencies
-3. Implement service logic in `src/new_service/`
-4. Create Dockerfile: `docker/new_service.Dockerfile`
-5. Add Kubernetes manifests: `deployment/dev/new_service/`
-6. Update root `pyproject.toml` workspace members
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
-## 📝 License
-
-MIT License - see [LICENSE](LICENSE) file
-
 ---
 
 ## 📞 Contact
