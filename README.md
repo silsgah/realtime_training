@@ -27,6 +27,7 @@ This system implements a **complete end-to-end ML pipeline** for predicting cryp
 ### Microservices
 
 ```
+RealTimeCrypto.png
 ┌─────────────────────────────────────────────────────────┐
 │                     TRADES SERVICE                      │
 │   WebSocket → Live Trade Data → Kafka Stream           │
