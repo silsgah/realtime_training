@@ -22,13 +22,10 @@ This system implements a **complete end-to-end ML pipeline** for predicting cryp
 
 ---
 
-## 🏗️ Architecture
-
 ## 🏛️ Architecture
 
 ![System Architecture Diagram](RealTimeCrypto.png)
 ### Microservices
-
 ```
 
 ┌─────────────────────────────────────────────────────────┐
